@@ -14,6 +14,8 @@ export default {
       sections: [
         { name: "Home", to: "/" },
         { name: "Projects", to: "/projects" },
+        { name: "Skills", to: "/skills" },
+        { name: "Open Source", to: "/opensource" }
       ],
     };
   },
