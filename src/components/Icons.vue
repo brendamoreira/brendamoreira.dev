@@ -13,7 +13,7 @@ export default {
 <style>
 .container{
   position: absolute;
-  left: 4vw;
+  left: 3vw;
   top: 50%;
   transform:translateY(-50%);
   background-color: blueviolet;
