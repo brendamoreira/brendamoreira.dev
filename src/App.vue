@@ -1,22 +1,32 @@
 <script setup>
 import NavBar from "./components/NavBar.vue";
+import Icons from "./components/Icons.vue";
+import Logo from "./components/Logo.vue";
 </script>
 
 <template>
-  <NavBar />
-  <main>
-    <router-view />
-  </main>
+  <Logo />
+  <Icons />
+  <div class="main">
+    <NavBar />
+    <main>
+      <router-view />
+    </main>
+  </div>
 </template>
 
 <style>
 @import "./assets/base.css";
 
 #app {
-  max-width: 1280px;
-  margin: 0 auto;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
   padding: 2rem;
 
   font-weight: normal;
+}
+.main {
+  margin: 0 auto;
 }
 </style>
