@@ -9,7 +9,6 @@ export default {
 <style>
 .logo{
     font-size: 48px;
-    left: 3vw;
 }
 b{
     color:blueviolet
