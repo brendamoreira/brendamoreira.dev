@@ -2,7 +2,7 @@
   <header class="header" id="header">
     <ul>
       <li v-for="section in sections" :key="section.name">
-        <router-link :to="section.to">{{ section.name }}</router-link>
+        <router-link active-class="active-section" class="section" :to="section.to">{{ section.name }}</router-link>
       </li>
     </ul>
   </header>
@@ -36,5 +36,14 @@ li {
   display: inline;
   cursor: pointer;
   margin: 10px;
+  font-size: 24px;
+  color: black;
+}
+.section{
+  text-decoration: none;
+}
+.active-section{
+
+  color:blueviolet;
 }
 </style>
