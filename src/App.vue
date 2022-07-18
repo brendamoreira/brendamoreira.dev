@@ -27,7 +27,7 @@ import Logo from "./components/Logo.vue";
 }
 .content {
   margin-left: 124px;
-  padding-top: 150px;
+  padding-top: 100px;
 }
 .header {
   display: flex;
