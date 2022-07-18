@@ -27,3 +27,6 @@ body {
 a:visited{
   color: var(--secondary-color);
 }
+.highlight-text{
+  color: var(--primary-color);
+}

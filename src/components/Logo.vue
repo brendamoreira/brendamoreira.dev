@@ -1,5 +1,5 @@
 <template>
-<h1 class="logo">brendamoreira<span>.dev</span></h1>
+<h1 class="logo">brendamoreira<span class="highlight-text">.dev</span></h1>
 </template>
 <script>
 export default {
@@ -9,8 +9,5 @@ export default {
 <style scoped>
 .logo{
     font-size: 48px;
-}
-span{
-    color: var(--primary-color);
 }
 </style>
