@@ -43,7 +43,6 @@ li {
   text-decoration: none;
 }
 .active-section{
-
-  color:blueviolet;
+  color: var(--primary-color);
 }
 </style>

@@ -1,16 +1,16 @@
 <template>
-<div class="logo">brendamoreira<b>.dev</b></div>
+<h1 class="logo">brendamoreira<span>.dev</span></h1>
 </template>
 <script>
 export default {
   name: "Logo",
 };
 </script>
-<style>
+<style scoped>
 .logo{
     font-size: 48px;
 }
-b{
-    color:blueviolet
+span{
+    color: var(--primary-color);
 }
 </style>

@@ -16,7 +16,7 @@ export default {
   left: 2rem;
   top: 50%;
   transform:translateY(-50%);
-  background-color: blueviolet;
+  background-color: var(--primary-color);
   border-radius: 30px;
   display: flex;
   flex-direction: column;
