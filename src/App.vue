@@ -17,7 +17,6 @@ import Logo from "./components/Logo.vue";
 
 <style>
 @import "./assets/base.css";
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 
 #app {
   width: 100vw;
@@ -25,7 +24,6 @@ import Logo from "./components/Logo.vue";
   position: relative;
   margin: 0;
   padding: 2rem;
-  font-family: "Open Sans", sans-serif;
 }
 .content {
   margin-left: 124px;
