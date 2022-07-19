@@ -1,0 +1,6 @@
+[{"name":"Git", "code": "fa-git-alt", "color": "#F1502F"},
+{"name":"JavaScript (ES6+)", "code": "fa-js-square", "color": "#F0DB4F"},
+{"name": "Vuejs 2 & 3 with Vuex", "code": "fa-vuejs", "color": "#42B883"},
+{"name":"NodeJs Basics", "code": "fa-node-js", "color": "#68A063"},
+{"name":"Python 3 Basics", "code": "fa-python", "color": "#306998"},
+{"name":"Docker Basics", "code": "fa-docker", "color": "#0DB7ED"}]

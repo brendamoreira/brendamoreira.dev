@@ -10,7 +10,7 @@ export default {
   name: "Icons",
 };
 </script>
-<style>
+<style scoped>
 .container{
   position: absolute;
   left: 2rem;
