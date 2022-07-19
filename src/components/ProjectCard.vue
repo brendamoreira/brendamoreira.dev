@@ -22,6 +22,7 @@ export default {
 <style>
 .cards-holder{
   display: flex;
+  flex-wrap: wrap;
   gap: 20px;
   margin: auto;
 }
@@ -37,5 +38,8 @@ export default {
   font-size: 20px;
   font-weight: bold;
   margin: 5px;
+}
+.description{
+ padding: 5px;
 }
 </style>
