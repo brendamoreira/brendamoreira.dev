@@ -5,8 +5,8 @@
       <div class="subtitle">{{project.subtitle}}</div>
       <div class="description">
         {{project.description}}<br/>
-      You can check the repository <a class="link" href={{project.link}}>here</a>
       </div>
+      <a class="repo" href={{project.repo}}>repository</a>
     </div>
   </div>
 </template>
@@ -33,7 +33,7 @@ export default {
   width: 400px;
   height: 200px;
   border-radius: 5px;
-  padding: 5px;
+  padding: 8px;
   box-shadow: 0px 4px 4px rgba(51, 51, 51, 0.25);
 }
 .title {
@@ -48,8 +48,11 @@ export default {
 .description{
  padding: 5px;
 }
-.link{
+.repo{
   color: var(--primary-color);
   text-decoration: none;
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
 }
 </style>
