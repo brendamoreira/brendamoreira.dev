@@ -2,8 +2,10 @@
   <div class="cards-holder">
     <div class="card" v-for="project in projects" :key="projects.name">
       <div class="title">{{project.name}}</div>
+      <div class="subtitle">{{project.subtitle}}</div>
       <div class="description">
-        {{project.description}}
+        {{project.description}}<br/>
+      You can check the repository <a class="link" href={{project.link}}>here</a>
       </div>
     </div>
   </div>
@@ -39,7 +41,15 @@ export default {
   font-weight: bold;
   margin: 5px;
 }
+.subtitle{
+  font-size: 0.8rem;
+  font-style: italic;
+}
 .description{
  padding: 5px;
+}
+.link{
+  color: var(--primary-color);
+  text-decoration: none;
 }
 </style>

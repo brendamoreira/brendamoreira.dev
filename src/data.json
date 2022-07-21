@@ -1,12 +1,18 @@
 [{
-    "name": "Project1",
-    "description": "This project consists in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    "name": "Travel App",
+    "subtitle": "This project is part of Udacity's Front End Web Developer course.",
+    "description": "An app for planning your travel. For this project I used Node.js + Express, JavaScript, HTML and CSS",
+    "link": "."
 },
 {
-    "name": "Project2",
-    "description": "This project consists in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    "name": "Fyyur",
+    "subtitle": "This project is part of Udacity's Full Stack Web Developer course.",
+    "description": "Scheduling venue for concerts. For this project I used Python3/Flask, SQLAlchemy ORM and PostgreSQL",
+    "link": "."
 },
 {
-    "name": "Project3",
-    "description": "This project consists in Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris."
+    "name": "Evaluate a News Article with NLP",
+    "subtitle": "This project is part of Udacity's Front End Web Developer course.",
+    "description": "Natural Language Processing on articles and blogs. For this project I used JavaScript, SASS and HTML",
+    "link": "."
 }]
