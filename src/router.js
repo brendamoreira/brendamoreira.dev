@@ -8,7 +8,7 @@ const routes = [
     {path: "/", name: "Home", component: Home},
     {path: "/projects", name: "Projects", component: Projects},
     {path: "/skills", name: "Skills", component: Skills},
-    {path: "/opensource", name: "opensource", component: OpenSource}
+    // {path: "/opensource", name: "opensource", component: OpenSource}
 ];
 export default createRouter({
     history: createWebHistory(), 
