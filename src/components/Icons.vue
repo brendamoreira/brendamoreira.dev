@@ -1,8 +1,8 @@
 <template>
   <div class="container">
-    <font-awesome-icon class="icon" icon="fa-brands fa-github" />
-    <font-awesome-icon class="icon" icon="fa-brands fa-gitlab" />
-    <font-awesome-icon class="icon" icon="fa-brands fa-linkedin" />
+    <a href="https://github.com/brendamoreira" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-github" /></a>
+    <a href="https://gitlab.com/brendamoreira" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-gitlab" /></a>
+    <a href="https://www.linkedin.com/in/brenda-moreiralima/" target="_blank"><font-awesome-icon class="icon" icon="fa-brands fa-linkedin" /></a>
   </div>
 </template>
 <script>

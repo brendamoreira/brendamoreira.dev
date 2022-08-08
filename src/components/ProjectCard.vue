@@ -6,7 +6,7 @@
       <div class="description">
         {{project.description}}<br/>
       </div>
-      <a class="repo" href={{project.repo}}>repository</a>
+      <a class="repo" :href="project.repo" target="_blank">Repository</a>
     </div>
   </div>
 </template>
@@ -21,7 +21,7 @@ export default {
   },
 };
 </script>
-<style>
+<style scoped>
 .cards-holder{
   display: flex;
   flex-wrap: wrap;
@@ -54,5 +54,8 @@ export default {
   position: absolute;
   right: 8px;
   bottom: 8px;
+}
+.a, a:visited{
+  color: var(--primary-color);
 }
 </style>
