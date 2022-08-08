@@ -24,7 +24,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-a:visited{
+a, a:visited{
   color: var(--secondary-color);
 }
 .highlight-text{
